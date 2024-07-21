@@ -6,7 +6,7 @@ const restartBtn = document.querySelector('.restartBtn');
 const startGameBtn = document.querySelector('#startGameBtn');
 const currentPlayerSpan = document.querySelector('#currentPlayer');
 
-const ws = new WebSocket('ws://localhost:3000');
+const ws = new WebSocket('wss://jogodavelha-backend.onrender.com');
 
 let isCircleTurn;
 let gameState;
